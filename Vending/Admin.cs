@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Vending
@@ -39,21 +40,27 @@ namespace Vending
             Console.WriteLine($"{newItem.Name} has been added to the menu.");
         }
 
-        // Function to remove an item from menu by ID
+        // Function to remove an item from menu by ID and reassign IDs
         public void RemoveItem(int id)
         {
-            var itemToRemove = items.Find(item => item.ID == id); // checks that the ID is a actual item.
+            var itemToRemove = items.Find(item => item.ID == id); // Checks if the ID is valid
             if (itemToRemove != null)
             {
-                items.Remove(itemToRemove);
+                items.Remove(itemToRemove); // Remove the item from the list
+
+                // Reassign IDs to the remaining items to ensure they are in order and not missing numbers
+                for (int i = 0; i < items.Count; i++)
+                {
+                    items[i].ID = i + 1; // Start at 1 and increase ID by +1
+                }
                 Console.WriteLine($"{itemToRemove.Name} has been removed from the menu.");
+                Thread.Sleep(2000);
             }
             else
             {
-                Console.WriteLine("Item not found."); // if they choose a invalid ID
+                Console.WriteLine("Item not found."); // If the ID doesn't exist
             }
         }
-
         // List count
         public int ItemCount => items.Count;
 
