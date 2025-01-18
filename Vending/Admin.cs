@@ -15,10 +15,11 @@ namespace Vending
         {
             items = new List<Items> // starting item list 
             {
-                new Items(1, "Soda", "A refreshing soft drink"), // any added catagories such as price initial values must be here
+                new Items(1, "Soda", "A refreshing soft drink"), // any added categories such as price's initial values must be added here
                 new Items(2, "Chips", "A crispy snack"),
                 new Items(3, "Candy", "A sweet treat")
             };
+
         }
 
         // Function to display items
@@ -76,19 +77,19 @@ namespace Vending
                 Console.Write("Please select an option: ");
                 string adminInput = Console.ReadLine();
 
-                if (adminInput == "1")  // Add item remmember if you add a item catagory you must get the input here
+                if (adminInput == "1")  // Add item remmember if you add a item category you must add it here like the example.
                 {
                     Console.WriteLine("Enter the name of the item:");
                     string name = Console.ReadLine();
                     Console.WriteLine("Enter the description of the item:");
                     string description = Console.ReadLine();
-                    //Console.Writeline("Enter the price of the item:");  <-----example of adding a catagory "Price" to Items
+                    //Console.Writeline("Enter the price of the item:");  <-----example of adding a category "Price" to Items
                     //int price = Console.ReadLine();
 
 
                     // Create new item and add it
-                    int newId = ItemCount + 1; // Adds item to ID list by adding +1
-                    Items newItem = new Items(newId, name, description); // Fills info
+                    int newId = ItemCount + 1; // Adds item to ID list by adding +1 if you delete then add a item the ID will duplicate a number
+                    Items newItem = new Items(newId, name, description); // , price); <-----example of adding a category "Price" to Items
                     AddItem(newItem);
                 }
                 else if (adminInput == "2")  // Remove item 
