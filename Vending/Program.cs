@@ -48,12 +48,7 @@ namespace Vending
                     Console.WriteLine("Invalid input. Please enter a valid number.");//wrong keystroke
                 }
 
-                // Ask if the user wants to continue
-                Console.WriteLine("\nWould you like to back to the menu?(y/n)"); // Restart loop?
-                if (Console.ReadLine().ToLower() != "y")
-                {
-                    running = false;
-                }
+               
             }
         }
 

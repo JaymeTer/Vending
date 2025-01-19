@@ -79,12 +79,12 @@ namespace Vending
                 Console.Clear();
                 Console.WriteLine("Admin Mode:");
                 Console.WriteLine("1. Add Item");
-                Console.WriteLine("2. Remove Item");               // Admin menu
+                Console.WriteLine("2. Remove Item");               // admin menu
                 Console.WriteLine("3. Back to Main Menu");
                 Console.Write("Please select an option: ");
                 string adminInput = Console.ReadLine();
 
-                if (adminInput == "1")  // Add item remmember if you add a item category you must add it here like the example.
+                if (adminInput == "1")  // add item remmember if you add a item category you must add it here like the example.
                 {
                     Console.WriteLine("Enter the name of the item:");
                     string name = Console.ReadLine();
@@ -95,11 +95,11 @@ namespace Vending
 
 
                     // Create new item and add it
-                    int newId = ItemCount + 1; // Adds item to ID list by adding +1 if you delete then add a item the ID will duplicate a number
+                    int newId = ItemCount + 1; // adds item to ID list by adding +1 
                     Items newItem = new Items(newId, name, description); // , price); <-----example of adding a category "Price" to Items
                     AddItem(newItem);
                 }
-                else if (adminInput == "2")  // Remove item 
+                else if (adminInput == "2")  // remove item 
                 {
                     Console.WriteLine("Enter the ID of the item you want to remove:");
                     if (int.TryParse(Console.ReadLine(), out int id)) // if valid ID is chosen removes item.
@@ -111,13 +111,25 @@ namespace Vending
                         Console.WriteLine("Invalid input. Please enter a valid ID."); //wrong keystroke
                     }
                 }
-                else if (adminInput == "3")  // Back to main menu
+                else if (adminInput == "3")  // back to main menu
                 {
                     adminRunning = false;
                 }
                 else
                 {
-                    Console.WriteLine("Invalid option. Please try again."); //wrong keystroke
+                    Console.WriteLine("Invalid option. Please try again."); // wrong keystroke
+                }
+
+                // Asks which menu they want to goto after add/remove
+                if (adminInput == "1" || adminInput == "2")
+                {
+                    Console.WriteLine("Do you want to return to Admin Mode or go to the Main Menu?");
+                    Console.WriteLine("Enter '1' to return to Admin Mode or '2' to go to the Main Menu.");
+                    string choice = Console.ReadLine();
+                    if (choice == "2")
+                    {
+                        adminRunning = false; // exit Admin Mode 
+                    }
                 }
             }
         }
