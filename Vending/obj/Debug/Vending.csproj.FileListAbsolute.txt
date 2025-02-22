@@ -5,3 +5,10 @@ C:\Users\stonk\source\repos\Vending\Vending\obj\Debug\Vending.csproj.AssemblyRef
 C:\Users\stonk\source\repos\Vending\Vending\obj\Debug\Vending.csproj.CoreCompileInputs.cache
 C:\Users\stonk\source\repos\Vending\Vending\obj\Debug\Vending.exe
 C:\Users\stonk\source\repos\Vending\Vending\obj\Debug\Vending.pdb
+C:\Users\School Access\Source\Repos\Vending\Vending\bin\Debug\Vending.exe.config
+C:\Users\School Access\Source\Repos\Vending\Vending\bin\Debug\Vending.exe
+C:\Users\School Access\Source\Repos\Vending\Vending\bin\Debug\Vending.pdb
+C:\Users\School Access\Source\Repos\Vending\Vending\obj\Debug\Vending.csproj.AssemblyReference.cache
+C:\Users\School Access\Source\Repos\Vending\Vending\obj\Debug\Vending.csproj.CoreCompileInputs.cache
+C:\Users\School Access\Source\Repos\Vending\Vending\obj\Debug\Vending.exe
+C:\Users\School Access\Source\Repos\Vending\Vending\obj\Debug\Vending.pdb

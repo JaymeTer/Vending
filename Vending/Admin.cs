@@ -16,9 +16,9 @@ namespace Vending
         {
             items = new List<Items> // starting item list 
             {
-                new Items(1, "Soda", "A refreshing soft drink"), // any added categories such as price's initial values must be added here
-                new Items(2, "Chips", "A crispy snack"),
-                new Items(3, "Candy", "A sweet treat")
+                new Items(1, "Soda", "A refreshing soft drink", 2), // any added categories such as price's initial values must be added here
+                new Items(2, "Chips", "A crispy snack\t", 3),
+                new Items(3, "Candy", "A sweet treat\t", 1)
             };
 
         }
@@ -32,7 +32,6 @@ namespace Vending
                 Console.WriteLine(item); // poofs out the items from the Items list
             }
         }
-
         // Function to add a new item
         public void AddItem(Items newItem)
         {
@@ -90,13 +89,13 @@ namespace Vending
                     string name = Console.ReadLine();
                     Console.WriteLine("Enter the description of the item:");
                     string description = Console.ReadLine();
-                    //Console.Writeline("Enter the price of the item:");  <-----example of adding a category "Price" to Items
-                    //int price = Console.ReadLine();
+                    Console.WriteLine("Enter the price of the item:");  //< -----example of adding a category "Price" to Items
+                    int price = int.Parse(Console.ReadLine());
 
 
                     // Create new item and add it
                     int newId = ItemCount + 1; // adds item to ID list by adding +1 
-                    Items newItem = new Items(newId, name, description); // , price); <-----example of adding a category "Price" to Items
+                    Items newItem = new Items(newId, name, description, price); // , price); <-----example of adding a category "Price" to Items
                     AddItem(newItem);
                 }
                 else if (adminInput == "2")  // remove item 
@@ -113,6 +112,7 @@ namespace Vending
                 }
                 else if (adminInput == "3")  // back to main menu
                 {
+                    Console.Clear();
                     adminRunning = false;
                 }
                 else
