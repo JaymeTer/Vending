@@ -13,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|c:\\users\\school access\\source\\repos\\vending\\vending\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|solutionrelative:vending\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|c:\\users\\school access\\source\\repos\\vending\\vending\\moneyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|solutionrelative:vending\\moneyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|c:\\users\\school access\\source\\repos\\vending\\vending\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|solutionrelative:vending\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,13 +50,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoneyHandler.cs",
+              "DocumentMoniker": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\MoneyHandler.cs",
+              "RelativeDocumentMoniker": "Vending\\MoneyHandler.cs",
+              "ToolTip": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\MoneyHandler.cs",
+              "RelativeToolTip": "Vending\\MoneyHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T01:28:29.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bills.cs",
+              "DocumentMoniker": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Bills.cs",
+              "RelativeDocumentMoniker": "Vending\\Bills.cs",
+              "ToolTip": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Bills.cs",
+              "RelativeToolTip": "Vending\\Bills.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T01:04:05.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Admin.cs",
               "RelativeDocumentMoniker": "Vending\\Admin.cs",
               "ToolTip": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Admin.cs",
               "RelativeToolTip": "Vending\\Admin.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T22:42:38.965Z",
               "EditorCaption": ""
@@ -61,7 +95,7 @@
               "RelativeDocumentMoniker": "Vending\\Items.cs",
               "ToolTip": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Items.cs",
               "RelativeToolTip": "Vending\\Items.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBwAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T20:22:06.368Z",
               "EditorCaption": ""
@@ -72,9 +106,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Program.cs",
               "RelativeDocumentMoniker": "Vending\\Program.cs",
-              "ToolTip": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Program.cs*",
-              "RelativeToolTip": "Vending\\Program.cs*",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwDkAAABRAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Program.cs",
+              "RelativeToolTip": "Vending\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T19:13:52.007Z",
               "EditorCaption": ""

@@ -16,8 +16,8 @@ namespace Vending
         {
             items = new List<Items> // starting item list 
             {
-                new Items(1, "Soda", "A refreshing soft drink", 1), // any added categories such as price's initial values must be added here
-                new Items(2, "Chips", "A crispy snack\t", 1),
+                new Items(1, "Soda", "A refreshing soft drink", 2), // any added categories such as price's initial values must be added here
+                new Items(2, "Chips", "A crispy snack\t", 3),
                 new Items(3, "Candy", "A sweet treat\t", 1)
             };
 
@@ -32,7 +32,6 @@ namespace Vending
                 Console.WriteLine(item); // poofs out the items from the Items list
             }
         }
-
         // Function to add a new item
         public void AddItem(Items newItem)
         {
