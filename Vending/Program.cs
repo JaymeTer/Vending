@@ -17,9 +17,8 @@ namespace Vending
             while (running)
             {
                 // Display the vending machine menu
-                Console.Clear();
                 Console.WriteLine("Vending Machine Admin Menu:");
-                Console.WriteLine("0. Admin Mode");
+                Console.WriteLine("0. Admin Mode \n");
                 admin.DisplayItems();
 
                 // Ask the user to select an item or go to admin mode
@@ -34,28 +33,29 @@ namespace Vending
                     }
                     else if (selection >= 1 && selection <= admin.ItemCount)  // Process key if valid selection
                     {
+                        Console.Clear();
                         // Vend the item 
                         Items selectedItem = admin.GetItemBySelection(selection);
                         VendItem(selectedItem);
                     }
                     else
                     {
-                        Console.WriteLine("Invalid selection. Please try again."); //wrong keystroke
+                        Console.Clear();
+                        Console.WriteLine("Invalid selection. Please try again.\n"); //wrong keystroke
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Invalid input. Please enter a valid number.");//wrong keystroke
+                    Console.Clear();
+                    Console.WriteLine("Invalid input. Please enter a valid number.\n");//wrong keystroke
                 }
-
-               
             }
         }
 
         // Function to poop out item.
         public static void VendItem(Items item)
         {
-            Console.WriteLine($"Vending: {item.Name} - {item.Description}"); // If you want it to say a new category you added
+            Console.WriteLine($"Vending: {item.Name}\t-\t{item.Description}\t-\t${item.Price}\n"); // If you want it to say a new category you added
         }                                                                    // you put it in here such as -{item.Price}")
     }
 }

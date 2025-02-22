@@ -13,21 +13,20 @@ namespace Vending
         public int ID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        // public int Price { get; set; }   <-----example of adding a category "Price"
+        public int Price { get; set; }   //<-----example of adding a category "Price"
 
         // Constructor
-        public Items(int id, string name, string description)
+        public Items(int id, string name, string description, int price)
         {
             ID = id;
             Name = name;
             Description = description;
-        //  Price = price;       <-----example of adding a category "Price"
+            Price = price;       //< -----example of adding a category "Price"
         }
         // This streamlines the output otherwise we need to specify line by line in main how we want each item to display
         public override string ToString()
         {
-            return $"{ID}. {Name} - {Description}";// output 
-         // return ${ID}. {Name} - {Description} - {Price}";   <-----example of adding a category "Price"
+            return $"{ID}.\t{Name}\t-\t{Description}\t-\t${Price}";   //<-----example of adding a category "Price"
         }
     }
 }

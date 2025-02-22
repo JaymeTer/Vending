@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\stonk\\source\\repos\\Vending\\",
+  "WorkspaceRootPath": "C:\\Users\\School Access\\source\\repos\\Vending\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|c:\\users\\stonk\\source\\repos\\vending\\vending\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|solutionrelative:Vending\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|c:\\users\\school access\\source\\repos\\vending\\vending\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|solutionrelative:vending\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|C:\\Users\\stonk\\source\\repos\\Vending\\vending\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|solutionrelative:vending\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|C:\\Users\\stonk\\source\\repos\\Vending\\vending\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|solutionrelative:vending\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E709D969-2786-4DA3-BBCA-F1FB98CB6B64}|Vending\\Vending.csproj|solutionrelative:Vending\\Items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\stonk\\source\\repos\\Vending\\Vending\\Admin.cs",
+              "DocumentMoniker": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Admin.cs",
               "RelativeDocumentMoniker": "Vending\\Admin.cs",
-              "ToolTip": "C:\\Users\\stonk\\source\\repos\\Vending\\Vending\\Admin.cs",
+              "ToolTip": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Admin.cs",
               "RelativeToolTip": "Vending\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T22:42:38.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Items.cs",
-              "DocumentMoniker": "C:\\Users\\stonk\\source\\repos\\Vending\\Vending\\Items.cs",
+              "DocumentMoniker": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Items.cs",
               "RelativeDocumentMoniker": "Vending\\Items.cs",
-              "ToolTip": "C:\\Users\\stonk\\source\\repos\\Vending\\Vending\\Items.cs",
+              "ToolTip": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Items.cs",
               "RelativeToolTip": "Vending\\Items.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwBYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T20:22:06.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\stonk\\source\\repos\\Vending\\Vending\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Program.cs",
               "RelativeDocumentMoniker": "Vending\\Program.cs",
-              "ToolTip": "C:\\Users\\stonk\\source\\repos\\Vending\\Vending\\Program.cs",
+              "ToolTip": "C:\\Users\\School Access\\source\\repos\\Vending\\Vending\\Program.cs",
               "RelativeToolTip": "Vending\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDIAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwBQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T19:13:52.007Z",
               "EditorCaption": ""
